@@ -10,8 +10,7 @@ import {
   Navigation,
   OverviewSection,
   ProjectsSection,
-  TechStackSection,
-  TestimonialsSection
+  TechStackSection
 } from "@/components/portfolio";
 
 export default function Portfolio() {
