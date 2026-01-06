@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   async rewrites() {
     return [
       {
@@ -15,10 +14,11 @@ const nextConfig: NextConfig = {
         source: "/ingest/decide",
         destination: "https://us.i.posthog.com/decide",
       },
-    ];
+    ]
   },
-  // This is required to support PostHog trailing slash API requests
+
+  // Required for PostHog trailing slash API requests
   skipTrailingSlashRedirect: true,
-};
+}
 
 export default nextConfig;

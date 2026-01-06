@@ -1,11 +1,12 @@
 "use client";
 
 import { Icon } from "@iconify/react";
-import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import SectionHeader from "./SectionHeader";
+import { AnimatePresence, motion, type Variants } from "framer-motion";
+
 
 type Certificate = {
   title: string;
@@ -109,30 +110,30 @@ export default function CertificationsSection() {
     },
   };
 
-  const itemVariants = {
-    hidden: { opacity: 0, y: 40, scale: 0.95 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      scale: 1,
-      transition: {
-        duration: 0.8,
-        ease: [0.25, 0.46, 0.45, 0.94],
-      },
+  const itemVariants: Variants = {
+  hidden: { opacity: 0, y: 60 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.8,
+      ease: [0.25, 0.46, 0.45, 0.94],
     },
-  };
+  },
+};
 
-  const floatVariants = {
-    animate: {
-      y: [-10, 10, -10],
-      x: [-5, 5, -5],
-      transition: {
-        duration: 8,
-        repeat: Infinity,
-        ease: "easeInOut",
-      },
+  const floatVariants: Variants = {
+  animate: {
+    x: [-20, 20, -20],
+    y: [-10, 10, -10],
+    transition: {
+      duration: 8,
+      repeat: Infinity,
+      repeatType: "reverse",
+      ease: [0.42, 0, 0.58, 1], // ✅ easeInOut (VALID)
     },
-  };
+  },
+};
 
   return (
     <>
@@ -184,14 +185,17 @@ export default function CertificationsSection() {
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 px-4"
           >
             {certifications.map((cert, index) => (
-              <motion.div
-                key={index}
-                variants={itemVariants}
-                whileHover={{
-                  y: -8,
-                  scale: 1.02,
-                  transition: { duration: 0.3, ease: "easeOut" }
-                }}
+  <motion.div
+    key={index}
+    variants={itemVariants}
+    whileHover={{
+      y: -8,
+      scale: 1.02,
+      transition: {
+        duration: 0.3,
+        ease: [0, 0, 0.58, 1],
+      },
+    }}
                 className="group h-full"
               >
                 <div className="h-full bg-white/70 dark:bg-gray-900/50 backdrop-blur-sm rounded-2xl border border-gray-300 dark:border-gray-800 hover:border-gray-400 dark:hover:border-gray-600 transition-all duration-300 overflow-hidden">

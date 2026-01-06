@@ -2,7 +2,7 @@
 
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
-
+import { type Variants } from "framer-motion";
 interface SectionHeaderProps {
   tagText: string;
   tagIcon: string;
@@ -20,19 +20,23 @@ export default function SectionHeader({
   showUnderline = false,
   centered = false
 }: SectionHeaderProps) {
-  const itemVariants = {
-    hidden: { opacity: 0, y: 40, scale: 0.95 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      scale: 1,
-      transition: {
-        duration: 0.8,
-        ease: [0.25, 0.46, 0.45, 0.94],
-      },
+  
+  const itemVariants: Variants = {
+  hidden: {
+    opacity: 0,
+    y: 40,
+    scale: 0.95,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.8,
+      ease: [0.25, 0.46, 0.45, 0.94],
     },
-  };
-
+  },
+};
   return (
     <motion.div
       variants={itemVariants}
