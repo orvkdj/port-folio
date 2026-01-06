@@ -276,7 +276,7 @@ export default function CertificationsSection() {
                     {/* Credential ID */}
                     <div className="flex items-center justify-between pt-4 border-t border-gray-200/60 dark:border-gray-700/50">
                       <Link
-                        href={`https://www.coursera.org/verify/${cert.credentialId}`}
+                        href={`${cert.credentialId}`}
                         target="_blank"
                       // rel="noopener noreferrer"
                       >
