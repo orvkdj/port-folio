@@ -60,7 +60,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.6 }}
         >
-          A first semester IT Student who enjoys Graphic Design a normal amount 👀. Let's work with me!
+          A first semester IT Student who enjoys Graphic Design a normal amount 👀. Lets work with me!
         </motion.p>
 
         {/* Social Links - keeping exactly the same */}

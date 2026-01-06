@@ -16,10 +16,10 @@ export default function AboutSection() {
       <div className="max-w-none">
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
           Hello! I am Andrea Mayqa — a passionate Graphic Designer & UI/UX enthusiast
-          who's dedicated to create beautiful multimedia projects that aaligns with your brand ideals!
+          who&apos;s dedicated to create beautiful multimedia projects that aaligns with your brand ideals!
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          Within just 6 months of experience, I've made several projects: Designing social media feeds, e-commerce banner,
+          Within just 6 months of experience, I&apos;ve made several projects: Designing social media feeds, e-commerce banner,
           moodboards, carrousels, posters, banners, id-cards, UI-UX projects, product and packaging design to clothing and pattern making. Video Editing,
           Marketing content writing and planning, motion graphics are like second nature to me :D
         </p>

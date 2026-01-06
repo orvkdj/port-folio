@@ -123,7 +123,7 @@ export default function OverviewSection() {
                   {/* Expanded About Content */}
                   <div className="space-y-3 md:space-y-4 border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      Within just 6 months of experience, I've made several projects: Designing social media feeds, e-commerce banner,
+                      Within just 6 months of experience, I&apos;ve made several projects: Designing social media feeds, e-commerce banner,
           moodboards, carrousels, posters, banners, id-cards, UI-UX projects, product and packaging design to clothing and pattern making. 
           <br></br><br></br>Video Editing,
           Marketing content writing and planning, motion graphics are like second nature to me :D
@@ -177,7 +177,7 @@ export default function OverviewSection() {
                     </div>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
-                    Designed multiple projects based on client's brand guidelines and copywriting. Has worked with
+                    Designed multiple projects based on client&apos;s brand guidelines and copywriting. Has worked with
                     multiple brands; Lee Kum Kee, Baby Safe, Sociarmy, Deterjen Sayang, and many more.
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">

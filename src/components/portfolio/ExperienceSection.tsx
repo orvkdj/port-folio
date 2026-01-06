@@ -95,7 +95,7 @@ export default function ExperienceSection() {
           tagIcon="solar:case-bold"
           heading="Experience"
           showUnderline={false}
-          description="My Internship journey and the impact I've made."
+          description="My Internship journey and the impact I&apos;ve made."
           centered={true}
         />
 
