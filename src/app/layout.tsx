@@ -7,13 +7,13 @@ import "./globals.css";
 const inter = Space_Grotesk({ subsets: ["latin"], weight: ["500", "600", "700"] });
 
 export const metadata: Metadata = {
-  title: "Muhammad Ramazan - Full Stack Developer",
-  description: "Portfolio of Muhammad Ramazan, a passionate full-stack developer specializing in modern web technologies, React, Next.js, and innovative digital solutions.",
-  keywords: "Muhammad Ramazan, Full Stack Developer, React, Next.js, Web Development, Portfolio",
-  authors: [{ name: "Muhammad Ramazan" }],
+  title: "Andrea Mayqa - Graphic Designer",
+  description: "Portfolio of Andrea Mayqa, a passionate graphic designer specializing in social media marketing, video editing and graphic design.",
+  keywords: "Andrea Mayqa, Graphic Designer, React, Next.js, Web Development, Portfolio",
+  authors: [{ name: "Andrea Mayqa" }],
   openGraph: {
-    title: "Muhammad Ramazan - Full Stack Developer",
-    description: "Portfolio of Muhammad Ramazan, a passionate full-stack developer specializing in modern web technologies.",
+    title: "Andrea Mayqa - Graphic Designer",
+    description: "Portfolio of Andrea Mayqa, a passionate graphic designer specializing in graphic design.",
     type: "website",
   },
 };

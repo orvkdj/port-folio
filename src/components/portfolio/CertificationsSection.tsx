@@ -24,191 +24,75 @@ type Certificate = {
 
 const certifications: Certificate[] = [
   {
-    title: "DevOps Essentials",
-    provider: "IBM",
-    platform: "Coursera",
-    issued: "November 2023",
-    credentialId: "P67DLWJP2GL7",
-    skills: ["Continuous Integration", "DevOps", "Product Development", "IaaC"],
-    providerIcon: "lineicons:ibm",
-    platformIcon: "logos:coursera",
+    title: "TOEIC",
+    provider: "Direktorat Jendral Pendidikan Vokasi",
+    platform: "ETS",
+    issued: "August 2024",
+    credentialId: "1636358",
+    skills: ["English", "Listening", "Reading", "Grammar"],
+    providerIcon: "lineicons:certificate-badge-1",
+    platformIcon: "lineicons:graduation-cap-1",
     color: "from-blue-500 to-blue-600",
-    certificatePreview: "/certificates/P67DLWJP2GL7_DEVOPS.png",
+    certificatePreview: "/certificates/2.png",
     providerIconSize: 64,
-    platformIconSize: 88
+    platformIconSize: 64
   },
   {
-    title: "Git and GitHub Essentials",
-    provider: "IBM",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "YYQL3U4QAZJF",
-    skills: ["Version Control", "Git", "GitHub", "GitLab", "Open Source"],
-    providerIcon: "lineicons:ibm",
-    platformIcon: "logos:coursera",
+    title: "ISQO",
+    provider: "EduEXPO",
+    platform: "Personal",
+    issued: "August 2023",
+    credentialId: "ISQO/2023/08/60015",
+    skills: ["English", "Reading", "Grammar", "Olympiad"],
+    providerIcon: "lineicons:certificate-badge-1",
+    platformIcon: "lineicons:graduation-cap-1",
     color: "from-blue-500 to-blue-600",
-    certificatePreview: "/certificates/ YYQL3U4QAZJF_GIT_GITHUB.png",
+    certificatePreview: "/certificates/3.png",
     providerIconSize: 64,
-    platformIconSize: 88
+    platformIconSize: 64
   },
   {
-    title: "Web Development with HTML, CSS, JavaScript Essentials",
-    provider: "IBM",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "3UPD6SABRD3B",
-    skills: ["IBM Cloud", "HTML", "CSS", "Full-Stack Development"],
-    providerIcon: "lineicons:ibm",
-    platformIcon: "logos:coursera",
+    title: "UX Design",
+    provider: "SpecialSkill",
+    platform: "Bootcamp",
+    issued: "August 2025",
+    credentialId: "ISQO/2023/08/60015",
+    skills: ["UX Design", "UX Research", "UX Prototyping", "UX Process", "Figma", "Draw.io", "Wireframe", "A/B Testing"],
+    providerIcon: "lineicons:certificate-badge-1",
+    platformIcon: "lineicons:graduation-cap-1",
     color: "from-blue-500 to-blue-600",
-    certificatePreview: "/certificates/3UPD6SABRD3B_INTRO_WEB.png",
+    certificatePreview: "/certificates/4.png",
     providerIconSize: 64,
-    platformIconSize: 88
+    platformIconSize: 64
   },
   {
-    title: "Introduction to Cloud Computing",
-    provider: "IBM",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "verified-credly",
-    skills: ["Container", "IaaS", "IBM Cloud", "Architecture", "Cloud Computing", "PaaS", "DevOps"],
-    providerIcon: "lineicons:ibm",
-    platformIcon: "logos:coursera",
+    title: "Cyber Security",
+    provider: "KOMINFO",
+    platform: "Digitalent",
+    issued: "Mei 2024",
+    credentialId: "19480451150-24",
+    skills: ["Cybersecurity", "Online Ethics", "Hardware", "Software", "Networking", "Information Security"],
+    providerIcon: "lineicons:certificate-badge-1",
+    platformIcon: "lineicons:graduation-cap-1",
     color: "from-blue-500 to-blue-600",
-    certificatePreview: "/certificates/EXFQ7QMJYUQQ_AWS.png",
+    certificatePreview: "/certificates/5.png",
     providerIconSize: 64,
-    platformIconSize: 88
+    platformIconSize: 64
   },
-
   {
-    title: "Introduction to Databases for Back-End Development",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "February 2023",
-    credentialId: "5FNQEGLH78UD",
-    skills: ["Database Design", "SQL", "Backend Development", "Data Management"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/5FNQEGLH78UD_DATABASES_FOR_BACKEND.png",
+    title: "Competency Certificate",
+    provider: "SMK NEGERI 7 Kab. Tangerang",
+    platform: "Personal",
+    issued: "April 2025",
+    credentialId: "2022100719007273",
+    skills: ["Product Design", "Graphic Design", "Social Media Design", "Packaging Design", "Logo & Branding"],
+    providerIcon: "lineicons:certificate-badge-1",
+    platformIcon: "lineicons:graduation-cap-1",
+    color: "from-blue-500 to-blue-600",
+    certificatePreview: "/certificates/1.png",
     providerIconSize: 64,
-    platformIconSize: 88
+    platformIconSize: 64
   },
-
-  {
-    title: "Introduction to Back-End Development",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "2Y8NRQC5MP96",
-    skills: ["Backend Development", "APIs", "Server-Side Programming", "Web Development"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/2Y8NRQC5MP96_INTRO_BE.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-  {
-    title: "Django Web Framework",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "February 2023",
-    credentialId: "3YRA842UKERB",
-    skills: ["Django", "Python", "Web Framework", "MVC Architecture"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/3YRA842UKERB_DJANGO.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-  {
-    title: "Programming in Python",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "2AUUVS958L5Y",
-    skills: ["Python", "Programming", "Data Structures", "Algorithms"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/2AUUVS958L5Y_PYTHON.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-
-  {
-    title: "Version Control",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "BLGJKHN6UTSF",
-    skills: ["Git", "Version Control", "Collaboration", "Software Development"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/BLGJKHN6UTSF_version_control.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-  {
-    title: "Introduction to Databases",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "February 2023",
-    credentialId: "N9LJFAWZXTMA",
-    skills: ["Database Fundamentals", "SQL", "Data Management", "Database Design"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/N9LJFAWZXTMA_DATABASES.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-  {
-    title: "AWS Cloud Technical Essentials",
-    provider: "Amazon Web Services",
-    platform: "Coursera",
-    issued: "February 2023",
-    credentialId: "EXFQ7QMJYUQQ",
-    skills: ["AWS", "Cloud Computing", "EC2", "S3", "IAM", "VPC"],
-    // providerIcon: "logos:aws",
-    providerIcon: "skill-icons:aws-dark",
-    platformIcon: "logos:coursera",
-    color: "from-orange-500 to-red-600 text-black dark:text",
-    certificatePreview: "/certificates/EXFQ7QMJYUQQ_AWS.png",
-    providerIconSize: 44,
-    platformIconSize: 88
-  },
-  {
-    title: "Foundations: Data, Data, Everywhere",
-    provider: "Google",
-    platform: "Coursera",
-    issued: "November 2022",
-    credentialId: "6RUAYHXFV5XZ",
-    skills: ["Data Analysis", "Data Management", "Statistical Analysis"],
-    providerIcon: "logos:google",
-    platformIcon: "logos:coursera",
-    color: "from-indigo-500 to-purple-600",
-    certificatePreview: "/certificates/6RUAYHXFV5XZ_Foundations_data.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-  {
-    title: "Databases with SQL",
-    provider: "CS50",
-    platform: "HarvardX",
-    issued: "May 2025",
-    credentialId: "d7be6646-4c57-431e-88a9-ad7b882864e3",
-    skills: ["SQL", "Database", "Data Management", "Data Analysis"],
-    providerIcon: "fa-solid:university",
-    platformIcon: "simple-icons:edx",
-    color: "from-indigo-500 to-purple-600",
-    certificatePreview: "/certificates/CS50_SQL.png",
-    providerIconSize: 44,
-    platformIconSize: 44
-  }
 ];
 
 export default function CertificationsSection() {
@@ -287,7 +171,7 @@ export default function CertificationsSection() {
             tagText="Professional Credentials"
             tagIcon="solar:verified-check-bold"
             heading="Certifications"
-            description="Professional certifications and credentials that validate my expertise in modern technologies and development practices."
+            description="Professional certifications and credentials that validate my expertise in communication, design and technology practices."
             showUnderline={false}
             centered={true}
           />
@@ -431,7 +315,7 @@ export default function CertificationsSection() {
                   <Icon icon="solar:star-outline" className="text-white" width={18} height={18} />
                 </div>
                 <span className="text-blue-700 dark:text-blue-300 text-sm md:text-base font-semibold">
-                  13 Professional Certifications
+                  5 Professional Certifications
                 </span>
               </div>
               <div className="w-px h-6 bg-gradient-to-b from-blue-300/50 via-purple-300/50 to-blue-300/50"></div>

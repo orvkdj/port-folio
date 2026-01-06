@@ -1,4 +1,4 @@
-# 🚀 Muhammad Ramazan - Portfolio
+# 🚀 Andrea Mayqa - Portfolio
 
 A stunning, modern portfolio website built with cutting-edge technologies and beautiful animations inspired by Aceternity UI design principles.
 
@@ -252,7 +252,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 👨‍💻 Author
 
-**Muhammad Ramazan**
+**Andrea Mayqa**
 
 - Portfolio: [https://mramazan.dev](https://mramazan.dev)
 - GitHub: [@lightify97](https://github.com/lightify97)

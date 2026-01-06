@@ -7,72 +7,61 @@ import SectionHeader from "./SectionHeader";
 
 const projects = [
   {
-    title: "Checkersvip.com",
-    subtitle: "Professional Online Checkers Platform",
-    description: "A comprehensive multiplayer American checkers platform designed for competitive play with real-time communication capabilities. Currently undergoing official recognition process with the American Checkers Federation (ACF).",
+    title: "LevelUp",
+    subtitle: "Gamification study App",
+    description: "A Fun and interseting studying mobile app with Experience points and other gamification features that offers fun and challenges students competitive spirit.",
     features: [
-      "Real-time multiplayer gameplay with WebSocket technology",
-      "Advanced drag-and-drop game mechanics using DnDKit",
-      "Live chat system with emoji support and moderation",
-      "Player ranking and tournament management system",
-      "Spectator mode with real-time game observation",
-      "Mobile-responsive design for cross-platform play",
-      "Game replay and analysis tools",
-      "Social features including friend lists and challenges"
-    ],
+      "Users earn points, badges, and rewards as they complete tasks, making studying fun and motivating.",
+      "Users can create or join study rooms to collaborate with friends or classmates, enabling interactive group learning.",
+      "A built-in to-do list helps users organize their study schedules and track progress for better productivity.",
+      "Users can take notes directly in the app, keeping all their study materials organized and easily accessible",
+      "Users can join communities to share ideas, ask questions, and participate in discussions with like-minded learners.",
+      "The app tracks user activity, XP points, and achievements, helping learners monitor their growth and stay motivated.",],
     deliverables: [
-      "Fully functional web application deployed on production",
-      "Real-time multiplayer game engine",
-      "User authentication and profile management",
-      "Admin dashboard for game moderation",
-      "Tournament management system",
-      "Mobile-optimized responsive interface",
-      "Integration with payment systems for premium features"
+      "Gamified Learning Experience",
+      "Study Rooms: Learn with Others",
+      "To-Do List & Task Management",
+      "Note-Taking Functionality",
+      "Community Engagement",
+      "Progress Tracking & Analytics"
     ],
-    tech: ["Next.js", "NextUI", "Tailwind CSS", "DnDKit", "Fastify", "Redis", "Socket.io", "PostgreSQL", "Prisma", "JWT Authentication", "Stripe API"],
-    github: "https://github.com",
-    live: "https://checkersvip.com",
+    tech: ["Figma", "CorelDraw", "Canva", "OpenAI"],
+    github: "https://drive.google.com/drive/folders/1Np7nc_1_BF7v8xoNCkhcve__OjGQlpIk?usp=drive_link",
+    live: "https://www.figma.com/proto/Qafwh1sxqCQ39BrDO6tsLR/LevelUp-UI-Project?node-id=118-774&p=f&t=d1ttKMZdiQ5DkICY-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A20",
     gradient: "from-blue-500 to-cyan-500",
-    status: "Live",
-    category: "Web Application",
+    status: "Draft",
+    category: "UI Design",
     highlight: "Featured",
-    timeline: "6 months",
-    clientType: "Gaming Industry"
+    timeline: "3 Weeks",
+    clientType: "Learning Community"
   },
   {
-    title: "AskRudy.ai",
-    subtitle: "AI-Powered Document Intelligence Platform",
-    description: "An advanced RAG-based AI chatbot that revolutionizes document interaction through multilingual translation and intelligent conversation capabilities. Features cutting-edge OpenAI multimodal technology for screenshot analysis and real-time text translation.",
+    title: "KONECT",
+    subtitle: "Artist Digital Marketplace",
+    description: "A marketplace dedicated for artists to sell digital products, do commisions with secure optimization, and make art requests with live testimonies",
     features: [
-      "RAG (Retrieval-Augmented Generation) architecture for accurate responses",
-      "Multi-format document support (PDF, DOCX, TXT, images)",
-      "OpenAI GPT-4 Vision integration for screenshot analysis",
-      "Real-time multilingual translation (50+ languages)",
-      "Intelligent document chunking and vector embeddings",
-      "Conversational AI with context-aware responses",
-      "Document highlighting and annotation tools",
-      "Export capabilities for translations and summaries",
-      "Collaborative workspace for team document analysis"
+      "An enhanced messaging system designed to facilitate smooth communication for custom orders, ensuring both buyers and sellers can negotiate and discuss project details efficiently.",
+      "A platform for buying and selling digital assets and art, with proper ownership management to ensure creators retain rights while allowing secure transactions.",
+      "A built-in system to handle work revisions transparently, allowing sellers to set additional costs per revision based on prior agreements with the buyer.",
+      "Integration with trusted third-party services to ensure all transactions are safe, reducing risks for both parties and building trust within the marketplace."
     ],
     deliverables: [
-      "Production-ready AI chatbot platform",
-      "Document processing pipeline with OCR capabilities",
-      "Multi-language translation engine",
-      "User dashboard with document management",
-      "Subscription management with Stripe integration",
-      "API documentation and integration guides",
-      "Mobile-responsive Progressive Web App",
-      "Analytics dashboard for usage tracking"
+      "Transparent Payment System",
+      "Custom Order Messaging",
+      "My Store Portfolio",
+      "Digital Asset Marketplace",
+      "Revision Management & Pricing",
+      "Secure Third-Party Transaction Handling",
     ],
-    tech: ["Next.js", "NextUI", "Vercel AI SDK", "React-PDF", "Firebase", "LangChain", "OpenAI GPT-4", "Pinecone", "Stripe", "Tesseract.js", "PDF.js", "Zustand"],
-    github: "https://github.com",
-    live: "https://askrudy.ai",
+    tech: ["Figma", "CorelDraw", "Canva", "OpenAI"],
+    github: "https://drive.google.com/drive/folders/1BzPihWWVzDf-JElwp6XCAHD32z3_mOmV?usp=drive_link",
+    live: "https://www.figma.com/proto/ePTFVCINLQFa2O7xgC9KAf/KONECT?node-id=93-787&p=f&t=kgNS4I6NO8S5Pb3d-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=93%3A787",
     gradient: "from-purple-500 to-pink-500",
-    status: "Live",
-    category: "AI Platform",
+    status: "Draft",
+    category: "Marketplace",
     highlight: "Featured",
-    timeline: "8 months",
-    clientType: "EdTech & Enterprise"
+    timeline: "2 Weeks",
+    clientType: "Arts and Digitals"
   }
 ];
 
@@ -152,10 +141,10 @@ export default function ProjectsSection() {
       >
         {/* Section Header */}
         <SectionHeader
-          tagText="Portfolio Showcase"
+          tagText="Portfolio"
           tagIcon="solar:code-square-bold"
           heading="Featured Projects"
-          description="Discover my latest work in web development, AI integration, and digital innovation"
+          description="Discover my latest work Graphic Design, Content Editing, and UI-UX Prototyping."
           showUnderline={true}
           centered={true}
         />
@@ -274,7 +263,7 @@ export default function ProjectsSection() {
                         className="flex items-center justify-center gap-2 md:gap-3 px-4 py-2.5 md:px-6 md:py-3 bg-white/20 backdrop-blur-sm border border-white/30 text-white rounded-lg md:rounded-xl hover:bg-white/30 transition-all duration-300 text-sm font-medium shadow-lg hover:shadow-xl active:scale-95"
                       >
                         <Icon icon="solar:code-bold" width={18} height={18} className="md:w-5 md:h-5" />
-                        <span>View Repository</span>
+                        <span>Overview</span>
                       </Link>
 
                       <Link
@@ -282,7 +271,7 @@ export default function ProjectsSection() {
                         className="flex items-center justify-center gap-2 md:gap-3 px-4 py-2.5 md:px-6 md:py-3 bg-white text-gray-900 rounded-lg md:rounded-xl hover:bg-gray-100 transition-all duration-300 text-sm font-medium shadow-lg hover:shadow-xl active:scale-95"
                       >
                         <Icon icon="solar:arrow-up-outline" width={18} height={18} className="md:w-5 md:h-5" />
-                        <span>Live Demo</span>
+                        <span>Prototype</span>
                       </Link>
                     </div>
                   </div>

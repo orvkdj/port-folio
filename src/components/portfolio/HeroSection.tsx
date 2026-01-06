@@ -46,7 +46,7 @@ export default function HeroSection() {
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           <span className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 dark:from-white dark:via-gray-100 dark:to-white bg-clip-text text-transparent z-10">
-            Muhammad Ramazan
+            Andrea Mayqa
           </span>
         </motion.h1>
 
@@ -60,7 +60,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.6 }}
         >
-          Crafting exceptional digital experiences with clean code and thoughtful design
+          A first semester IT Student who enjoys Graphic Design a normal amount 👀. Let's work with me!
         </motion.p>
 
         {/* Social Links - keeping exactly the same */}
@@ -71,9 +71,9 @@ export default function HeroSection() {
           transition={{ delay: 1.0 }}
         >
           {[
-            { href: "https://github.com/lightify97", icon: "simple-icons:github", label: "GitHub", color: "hover:text-gray-900 dark:hover:text-white" },
-            { href: "https://linkedin.com/in/m-ramazan", icon: "skill-icons:linkedin", label: "LinkedIn", color: "hover:text-blue-600" },
-            { href: "mailto:lightify6@gmail.com", icon: "material-icon-theme:email", label: "Email", color: "hover:text-green-600" }
+            { href: "https://github.com/orvkdj", icon: "simple-icons:github", label: "GitHub", color: "hover:text-gray-900 dark:hover:text-white" },
+            { href: "www.linkedin.com/in/andrea-zharin-517403370", icon: "skill-icons:linkedin", label: "LinkedIn", color: "hover:text-blue-600" },
+            { href: "amareleine@gmail.com", icon: "material-icon-theme:email", label: "Email", color: "hover:text-green-600" }
           ].map((link) => (
             <motion.div key={link.label} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
@@ -129,7 +129,7 @@ export default function HeroSection() {
           />
           <Link href="#contact">
             <span className="text-green-700 dark:text-green-300 text-sm font-medium">
-              Available for projects
+              Eager to Work!
             </span>
           </Link>
         </motion.div>

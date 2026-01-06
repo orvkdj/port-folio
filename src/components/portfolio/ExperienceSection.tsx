@@ -6,36 +6,32 @@ import SectionHeader from "./SectionHeader";
 
 const experience = [
   {
-    role: "Software Developer",
-    company: "Upwork",
-    period: "January 2020 — Present",
-    type: "Freelance",
-    companyIcon: "fa6-brands:square-upwork",
-    companyColor: "from-green-500 to-green-600",
-    description: "Delivered high-quality projects across diverse domains, including web and mobile applications, API development, and cloud integrations (AWS, GCP).",
+    role: "Graphic Designer",
+    company: "TheConversion",
+    period: "June 2024 - Dec 2024",
+    type: "Internship",
+    companyIcon: "mdi:pencil-ruler",
+    companyColor: "from-blue-500 to-blue-600",
+    description: "Made 60+ designs throughout 6 months of Internship",
     achievements: [
-      "Achieved Top-Rated status with a 91% job success score",
-      "Completed 10+ projects focusing on scalable solutions",
-      "Consistently praised for skillfulness, quick learning, and strong communication",
-      "Earned repeated engagements through reliability and expertise"
+      "Has Worked with multiple local brands and international brand branches.",
+      "Made designs in accordance to previously accepted copywriting drafts.",
+      "Efficient, Detail-oriented and praised for multiple ideal designs."
     ],
-    technologies: ["JavaScript", "Python", "Node.js", "AWS", "GCP", "OpenAI API", "LangChain"]
+    technologies: ["Microsoft Office", "Adobe Photoshop", "Adobe Illustrator", "Adobe After Effects", "Canva", "CorelDRAW", "Capcut",]
   },
   {
-    role: "HIMS Master Trainer / PACS Specialist",
-    company: "Public Health Organization, Islamabad",
-    period: "July 2019 — Present",
-    type: "Full-time",
-    companyColor: "from-blue-500 to-blue-600",
-    companyIcon: "mdi:hospital-building",
-    description: "Spearheaded organizational transformation from paper-based manual systems to completely integrated HIMS and PACS (Picture Archiving and Communication System).",
+    role: "Content Marketing",
+    company: "TheConversion",
+    period: "June 2024 - Dec 2024",
+    type: "Internship",
+    companyColor: "from-pink-500 to-pink-600",
+    companyIcon: "mdi:office-building",
+    description: "Planned multiple contents that aligns with brand guidelines and initial approach. Ranging from Feeds, Reels, to blogs.",
     achievements: [
-      "Led integration of 45+ radiology machines (CT, MRI, X-Ray, Ultrasound)",
-      "Ensured active monitoring for integration issues",
-      "Acted as master trainer and led support team",
-      "Communicated issues and requirements to backend teams"
+      "Has made content plans for brands like Carlsberg, Deterjen Sayang, Carlsberg, Wetkins, and Sociarmy."
     ],
-    technologies: ["HIMS", "PACS", "System Integration", "Healthcare IT", "Training & Support"]
+    technologies: ["Google Docs", "Google Spreadsheet", "Canva", "Wordpress", "TikTok", "Instagram"]
   }
 ];
 
@@ -95,11 +91,11 @@ export default function ExperienceSection() {
 
       <div className="relative z-10">
         <SectionHeader
-          tagText="Professional Journey"
+          tagText="Internship Journey"
           tagIcon="solar:case-bold"
           heading="Experience"
           showUnderline={false}
-          description="My professional journey and the impact I've made across different domains"
+          description="My Internship journey and the impact I've made."
           centered={true}
         />
 
@@ -266,24 +262,24 @@ export default function ExperienceSection() {
               whileHover={{ scale: 1.05, y: -5 }}
               className="group p-6 md:p-8 rounded-xl md:rounded-2xl bg-gradient-to-br from-blue-50/50 to-blue-100/30 dark:from-blue-950/20 dark:to-blue-900/10 border border-blue-200/30 dark:border-blue-800/20 hover:border-blue-300/50 dark:hover:border-blue-600/30 transition-all duration-500"
             >
-              <div className="text-4xl md:text-5xl font-bold text-blue-600 dark:text-blue-400 mb-2 md:mb-3 group-hover:scale-110 transition-transform duration-300">5+</div>
-              <div className="text-gray-600 dark:text-gray-400 font-medium text-base md:text-lg">Years Experience</div>
+              <div className="text-4xl md:text-5xl font-bold text-blue-600 dark:text-blue-400 mb-2 md:mb-3 group-hover:scale-110 transition-transform duration-300">6</div>
+              <div className="text-gray-600 dark:text-gray-400 font-medium text-base md:text-lg">Months Experience</div>
             </motion.div>
 
             <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               className="group p-6 md:p-8 rounded-xl md:rounded-2xl bg-gradient-to-br from-green-50/50 to-green-100/30 dark:from-green-950/20 dark:to-green-900/10 border border-green-200/30 dark:border-green-800/20 hover:border-green-300/50 dark:hover:border-green-600/30 transition-all duration-500"
             >
-              <div className="text-4xl md:text-5xl font-bold text-green-600 dark:text-green-400 mb-2 md:mb-3 group-hover:scale-110 transition-transform duration-300">50+</div>
-              <div className="text-gray-600 dark:text-gray-400 font-medium text-base md:text-lg">Projects Completed</div>
+              <div className="text-4xl md:text-5xl font-bold text-green-600 dark:text-green-400 mb-2 md:mb-3 group-hover:scale-110 transition-transform duration-300">70+</div>
+              <div className="text-gray-600 dark:text-gray-400 font-medium text-base md:text-lg">Designs Completed</div>
             </motion.div>
 
             <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               className="group p-6 md:p-8 rounded-xl md:rounded-2xl bg-gradient-to-br from-purple-50/50 to-purple-100/30 dark:from-purple-950/20 dark:to-purple-900/10 border border-purple-200/30 dark:border-purple-800/20 hover:border-purple-300/50 dark:hover:border-purple-600/30 transition-all duration-500 sm:col-span-2 lg:col-span-1"
             >
-              <div className="text-4xl md:text-5xl font-bold text-purple-600 dark:text-purple-400 mb-2 md:mb-3 group-hover:scale-110 transition-transform duration-300">91%</div>
-              <div className="text-gray-600 dark:text-gray-400 font-medium text-base md:text-lg">Success Rate</div>
+              <div className="text-4xl md:text-5xl font-bold text-purple-600 dark:text-purple-400 mb-2 md:mb-3 group-hover:scale-110 transition-transform duration-300">"Special"</div>
+              <div className="text-gray-600 dark:text-gray-400 font-medium text-base md:text-lg">Internship Grade</div>
             </motion.div>
           </div>
         </motion.div>

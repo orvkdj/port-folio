@@ -15,53 +15,37 @@ interface TechItem {
 }
 
 const techStackData: Record<string, TechItem[]> = {
-  "Backend": [
+  "Vector": [
     {
-      name: "Node.js",
-      icon: "devicon:nodejs",
-      level: "Expert",
-      category: "Backend",
+      name: "Adobe Illustrator",
+      icon: "devicon:illustrator",
+      level: "Intermediate",
+      category: "Vector",
       description: "JavaScript runtime for server-side applications",
-      yearsUsed: 4
+      yearsUsed: 2
     },
     {
-      name: "Python",
-      icon: "devicon:python",
+      name: "CorelDRAW",
+      icon: "devicon:gleam",
       level: "Expert",
-      category: "Backend",
+      category: "Vector",
       description: "Versatile language for backend and data science",
-      yearsUsed: 5
+      yearsUsed: 2
     },
     {
-      name: "Express",
-      icon: "skill-icons:expressjs-dark",
-      level: "Expert",
-      category: "Backend",
+      name: "Figma",
+      icon: "devicon:figma",
+      level: "Intermediate",
+      category: "Vector",
       description: "Fast, minimalist web framework for Node.js",
-      yearsUsed: 3
+      yearsUsed: 0.6
     },
     {
-      name: "Django",
-      icon: "material-icon-theme:django",
-      level: "Intermediate",
-      category: "Backend",
+      name: "Canva",
+      icon: "devicon:canva",
+      level: "Expert",
+      category: "vector",
       description: "High-level Python web framework",
-      yearsUsed: 2
-    },
-    {
-      name: "GraphQL",
-      icon: "logos:graphql",
-      level: "Intermediate",
-      category: "Backend",
-      description: "Query language for APIs",
-      yearsUsed: 2
-    },
-    {
-      name: "Socket.io",
-      icon: "simple-icons:socketdotio",
-      level: "Intermediate",
-      category: "Backend",
-      description: "Real-time bidirectional event-based communication",
       yearsUsed: 2
     },
   ],
@@ -69,176 +53,101 @@ const techStackData: Record<string, TechItem[]> = {
     {
       name: "React",
       icon: "skill-icons:react-dark",
-      level: "Expert",
+      level: "Beginner",
       category: "Frontend",
       description: "Building modern, interactive user interfaces",
-      yearsUsed: 4
+      yearsUsed: 0.6
     },
     {
       name: "Next.js",
       icon: "devicon:nextjs",
-      level: "Expert",
+      level: "Beginner",
       category: "Frontend",
       description: "Full-stack React framework for production apps",
-      yearsUsed: 3
+      yearsUsed: 0.6
     },
     {
       name: "TypeScript",
       icon: "devicon:typescript",
-      level: "Expert",
+      level: "Beginner",
       category: "Frontend",
       description: "Type-safe JavaScript for scalable applications",
-      yearsUsed: 4
+      yearsUsed: 0.6
     },
     {
       name: "JavaScript",
       icon: "devicon:javascript",
-      level: "Expert",
+      level: "Beginner",
       category: "Frontend",
       description: "Core language for web development",
-      yearsUsed: 5
+      yearsUsed: 0.6
     },
     {
       name: "Tailwind CSS",
       icon: "logos:tailwindcss-icon",
-      level: "Expert",
+      level: "Beginner",
       category: "Frontend",
       description: "Utility-first CSS framework for rapid UI development",
-      yearsUsed: 3
-    },
-    {
-      name: "Flutter",
-      icon: "devicon:flutter",
-      level: "Intermediate",
-      category: "Frontend",
-      description: "Cross-platform mobile app development",
-      yearsUsed: 2
+      yearsUsed: 0.6
     },
   ],
-  "Database": [
+  "Bitmap": [
     {
-      name: "PostgreSQL",
-      icon: "logos:postgresql",
+      name: "Photoshop",
+      icon: "devicon:photoshop",
       level: "Expert",
-      category: "Database",
-      description: "Advanced open-source relational database",
-      yearsUsed: 3
-    },
-    {
-      name: "MongoDB",
-      icon: "devicon:mongodb",
-      level: "Expert",
-      category: "Database",
-      description: "NoSQL document database",
-      yearsUsed: 3
-    },
-    {
-      name: "MySQL",
-      icon: "logos:mysql",
-      level: "Intermediate",
-      category: "Database",
-      description: "Popular open-source relational database",
-      yearsUsed: 3
-    },
-    {
-      name: "Redis",
-      icon: "devicon:redis",
-      level: "Intermediate",
-      category: "Database",
-      description: "In-memory data structure store",
-      yearsUsed: 2
-    },
-    {
-      name: "Prisma",
-      icon: "skill-icons:prisma",
-      level: "Expert",
-      category: "Database",
-      description: "Next-generation ORM for Node.js and TypeScript",
-      yearsUsed: 2
-    },
-  ],
-  "Cloud & DevOps": [
-    {
-      name: "AWS",
-      icon: "skill-icons:aws-light",
-      level: "Intermediate",
-      category: "Cloud & DevOps",
+      category: "Bitmap",
       description: "Amazon Web Services cloud platform",
       yearsUsed: 2
     },
     {
-      name: "GCP",
-      icon: "skill-icons:gcp-light",
+      name: "GIMP",
+      icon: "devicon:gimp",
       level: "Intermediate",
       category: "Cloud & DevOps",
       description: "Google Cloud Platform services",
-      yearsUsed: 2
+      yearsUsed: 1
     },
     {
-      name: "Firebase",
-      icon: "vscode-icons:file-type-firebase",
-      level: "Expert",
-      category: "Cloud & DevOps",
-      description: "Google's app development platform",
-      yearsUsed: 3
-    },
-    {
-      name: "Docker",
-      icon: "devicon:docker",
+      name: "Krita",
+      icon: "devicon:gleam",
       level: "Intermediate",
-      category: "Cloud & DevOps",
-      description: "Containerization platform",
-      yearsUsed: 2
+      category: "vector",
+      description: "High-level Python web framework",
+      yearsUsed: 1.5
     },
     {
-      name: "Git",
-      icon: "devicon:git",
+      name: "IbisPaint",
+      icon: "devicon:gleam",
       level: "Expert",
-      category: "Cloud & DevOps",
-      description: "Version control system",
-      yearsUsed: 5
+      category: "vector",
+      description: "High-level Python web framework",
+      yearsUsed: 2
     },
   ],
-  "AI & Integration": [
+  "Video Editing": [
     {
-      name: "OpenAI",
-      icon: "simple-icons:openai",
-      level: "Expert",
+      name: "After Effects",
+      icon: "devicon:aftereffects",
+      level: "Beginner",
       category: "AI & Integration",
       description: "AI-powered applications and chatbots",
-      yearsUsed: 2
+      yearsUsed: 0.6
     },
     {
-      name: "LangChain",
-      icon: "simple-icons:langchain",
+      name: "Capcut",
+      icon: "devicon:gleam",
       level: "Expert",
       category: "AI & Integration",
       description: "Framework for developing LLM applications",
-      yearsUsed: 1
+      yearsUsed: 3
     },
     {
-      name: "Vercel AI SDK",
-      icon: "skill-icons:vercel-light",
-      level: "Expert",
+      name: "Alight Motion",
+      icon: "devicon:gleam",
+      level: "Intermediate",
       category: "AI & Integration",
       description: "Building AI-powered streaming UIs",
-      yearsUsed: 1
-    },
-    {
-      name: "Stripe",
-      icon: "logos:stripe",
-      level: "Intermediate",
-      category: "AI & Integration",
-      description: "Payment processing integration",
-      yearsUsed: 2
-    },
-    {
-      // vector database
-      name: "Vector Database",
-      icon: "ph:vector-three-duotone",
-      level: "Intermediate",
-      category: "AI & Integration",
-      description: "Vector database for storing and querying embeddings",
       yearsUsed: 1
     }
   ],
@@ -263,10 +172,10 @@ export default function TechStackSection() {
       className="mb-16"
     >
       <SectionHeader
-        tagText="Tech Arsenal"
+        tagText="Skillset"
         tagIcon="solar:settings-bold"
-        heading="Technology Stack"
-        description="Technologies I use to bring ideas to life"
+        heading="Design Programs"
+        description="Programs I use to bring ideas to life"
         showUnderline={false}
         centered={true}
       />

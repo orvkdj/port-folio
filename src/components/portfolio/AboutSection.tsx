@@ -15,18 +15,17 @@ export default function AboutSection() {
       <h2 className="text-2xl font-bold mb-6">About</h2>
       <div className="max-w-none">
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          Hello, World! I am Muhammad Ramazan — a passionate Full Stack Developer & UI/UX enthusiast
-          dedicated to creating high-performance, user-centric software solutions with intuitive and engaging designs.
+          Hello! I am Andrea Mayqa — a passionate Graphic Designer & UI/UX enthusiast
+          who's dedicated to create beautiful multimedia projects that aaligns with your brand ideals!
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          With 5+ years of experience, I specialize in building scalable web and mobile applications using
-          React, Next.js, TypeScript, and modern development technologies. I thrive on turning complex problems
-          into elegant solutions that users love.
+          Within just 6 months of experience, I've made several projects: Designing social media feeds, e-commerce banner,
+          moodboards, carrousels, posters, banners, id-cards, UI-UX projects, product and packaging design to clothing and pattern making. Video Editing,
+          Marketing content writing and planning, motion graphics are like second nature to me :D
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-          Beyond work, I love exploring emerging technologies, contributing to open-source projects, and
-          mentoring aspiring developers. I believe in continuous learning and staying at the forefront of
-          technological innovation.
+          Beyond work, I love arts and writing. I am a very fast learner, competitive and loves exploring outside
+          of my comfort zone. I love studying or painting on my free time!
         </p>
       </div>
     </motion.section>
